@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.gameName {
+  font-size: 2.4rem;
+}
+
+.game {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+}
+.game .game__header {
+  width: 100%;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#gameBoard {
+  margin: 40px auto;
+  display: grid;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  row-gap: 5px;
+  padding: 0 10px;
+}
+#gameBoard .tile {
+  background-color: rgb(8, 24, 36);
+  border-radius: 100%;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+#gameBoard .tile.active-tile {
+  color: rgb(242, 186, 0);
+  pointer-events: none;
+}
+
+.menuBtn,
+#startGameBtn {
+  border: none;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 7px 30px;
+}
+
+.menuBtn {
+  background-color: rgb(242, 186, 0);
+  font-size: 1.2rem;
+  font-weight: 800;
+  transition: 0.2s ease-in-out;
+}
+.menuBtn:hover {
+  background-color: var(--dark-yellow);
+}
+
+.menuSection,
+.scoreSectionOverlay {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuSection {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+}
+
+.menu,
+.scoreSection {
+  border-radius: 15px;
+  max-width: 400px;
+  width: 100%;
+  padding: 15px 25px;
+}
+
+.menu {
+  background-color: rgb(255, 255, 255);
+}
+.menu .menu__row {
+  padding: 10px 0;
+}
+.menu .menu__rowTitle {
+  color: rgb(10, 59, 79);
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.inputs-container {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+.inputs-container input {
+  display: none;
+  visibility: hidden;
+}
+.inputs-container input:checked + label {
+  background-color: rgb(242, 186, 0);
+}
+.inputs-container label {
+  background-color: rgb(8, 24, 36);
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-weight: 400;
+  padding: 7px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#startGameBtn {
+  background-color: rgb(242, 157, 0);
+  font-weight: 800;
+  width: 100%;
+}
+
+#players {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  padding: 0 10px;
+}
+
+.player-tile {
+  background-color: rgb(217, 217, 217);
+  border-radius: 10px;
+  color: rgb(10, 59, 79);
+  padding: 10px 15px 0 15px;
+  max-width: 120px;
+  width: 100%;
+  text-align: start;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.player-tile::before {
+  background-color: rgb(217, 217, 217);
+  content: "";
+  display: block;
+  position: absolute;
+  top: -14px;
+  left: 20%;
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border-left: 15px solid rgb(240, 240, 240);
+  border-right: 15px solid rgb(240, 240, 240);
+  border-bottom: 15px solid transparent;
+}
+.player-tile span {
+  font-size: 12px;
+}
+.player-tile p {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.player-tile.active-player {
+  background-color: rgb(242, 186, 0);
+  color: white;
+}
+.player-tile.active-player::before {
+  background-color: rgb(242, 186, 0);
+}
+
+.restartBtn--black {
+  background-color: rgb(8, 24, 36);
+  color: rgb(242, 186, 0);
+}
+
+.scoreSectionOverlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 999;
+}
+
+.scoreSection {
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+}
+.scoreSection h2 {
+  font-size: 26px;
+}
+.scoreSection .text {
+  color: rgb(70, 137, 131);
+  font-size: 1.4rem;
+}
+.scoreSection .nav {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}/*# sourceMappingURL=main.css.map */
