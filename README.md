@@ -29,3 +29,8 @@ Memory-Game is a simple but addictive card matching game. The aim of the game is
 ## Demo from Memory Game
 <img align="left" src="https://github.com/David-Mastalski/Memory-Games/blob/main/demo/video1.gif" alt="Memory-Game Demo" width="50%">
 <img align="right" src="https://github.com/David-Mastalski/Memory-Games/blob/main/demo/video2.gif" alt="Memory-Game Demo" width="50%">
+
+### 🎮 YOU CAN TEST THE GAME YOURSELF:
+```
+https://david-mastalski.github.io/Memory-Games/
+``` 
