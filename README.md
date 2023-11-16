@@ -13,6 +13,6 @@ Memory-Game to prosta, ale wciągająca gra polegająca na dopasowywaniu par kar
 3. **Dopasowanie:** Jeśli dwie odsłonięte karty są identyczne, zostają one pozostawione odkryte. Jeśli nie, karty są zakrywane z powrotem, a gracz próbuje ponownie.
 
 ### Zasady gry
--_**Cel gry:** Odnalezienie wszystkich par kart w jak najkrótszym czasie.
--_**Ruchy:** Gracz może odsłonić dwie karty podczas jednego ruchu.
--_**Dopasowanie:** Jeśli dwie odsłonięte karty są identyczne, zostają one pozostawione odkryte. Jeśli nie, karty są zakrywane z powrotem, a gracz próbuje ponownie.
+-_**Cel gry:** Odnalezienie wszystkich par kart w jak najkrótszym czasie._
+-_**Ruchy:** Gracz może odsłonić dwie karty podczas jednego ruchu._
+-_**Dopasowanie:** Jeśli dwie odsłonięte karty są identyczne, zostają one pozostawione odkryte. Jeśli nie, karty są zakrywane z powrotem, a gracz próbuje ponownie._
