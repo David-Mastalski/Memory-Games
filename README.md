@@ -7,12 +7,12 @@
 ## Opis
 Memory-Game to prosta, ale wciągająca gra polegająca na dopasowywaniu par kart. Celem gry jest odnalezienie wszystkich par kart poprzez zapamiętywanie ich położenia i skojarzenie ze sobą.
 
-### Zasady gry
+## Zasady gry
 1. **Cel gry:** Odnalezienie wszystkich par kart w jak najkrótszym czasie.
 2. **Ruchy:** Gracz może odsłonić dwie karty podczas jednego ruchu.
 3. **Dopasowanie:** Jeśli dwie odsłonięte karty są identyczne, zostają one pozostawione odkryte. Jeśli nie, karty są zakrywane z powrotem, a gracz próbuje ponownie.
 
-### Zasady gry
--_**Cel gry:** Odnalezienie wszystkich par kart w jak najkrótszym czasie._
--_**Ruchy:** Gracz może odsłonić dwie karty podczas jednego ruchu._
--_**Dopasowanie:** Jeśli dwie odsłonięte karty są identyczne, zostają one pozostawione odkryte. Jeśli nie, karty są zakrywane z powrotem, a gracz próbuje ponownie._
+## Jak zacząć grać?
+1. **Pobierz kod:** Sklonuj to repozytorium na swój lokalny komputer - git clone https://github.com/David-Mastalski/Memory-Games.git
+2. Otwórz plik index.html
+3. Powodzenia 😉
