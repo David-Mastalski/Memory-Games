@@ -4,8 +4,7 @@
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-## Opis
-Memory-Game to prosta, ale wciągająca gra polegająca na dopasowywaniu par kart. Celem gry jest odnalezienie wszystkich par kart poprzez zapamiętywanie ich położenia i skojarzenie ze sobą.
+<p>Memory-Game to prosta, ale wciągająca gra polegająca na dopasowywaniu par kart. Celem gry jest odnalezienie wszystkich par kart poprzez zapamiętywanie ich położenia i skojarzenie ze sobą.</p>
 
 ## Zasady gry
 1. **Cel gry:** Odnalezienie wszystkich par kart w jak najkrótszym czasie.
