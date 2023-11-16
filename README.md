@@ -14,5 +14,5 @@ Memory-Game to prosta, ale wciągająca gra polegająca na dopasowywaniu par kar
 
 ## Jak zacząć grać?
 1. **Pobierz kod:** Sklonuj to repozytorium na swój lokalny komputer - git clone https://github.com/David-Mastalski/Memory-Games.git
-2. Otwórz plik index.html
+2. Wejdź do katalogu z grą i otwórz plik index.html w przeglądarce
 3. Powodzenia 😉
