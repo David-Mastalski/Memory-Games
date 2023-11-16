@@ -7,12 +7,6 @@
 Memory-Game is a simple but addictive card matching game. The aim of the game is to find all pairs of cards by remembering their location and associating them with each other.
 
 ## Rules of Memory Game
-1. **Game Goal:** Finding all pairs of cards by matching them together.
-2. 
-3. **Ruchy:** Gracz może odsłonić dwie karty podczas jednego ruchu.
-4. **Dopasowanie:** Jeśli dwie odsłonięte karty są identyczne, zostają one pozostawione odkryte. Jeśli nie, karty są zakrywane z powrotem, a gracz próbuje ponownie.
-
-## Rules of Memory Game
 - _**Game Goal:**_
   - Finding all pairs of cards by matching them together
 - _**Starting the game:**_
@@ -26,8 +20,8 @@ Memory-Game is a simple but addictive card matching game. The aim of the game is
 - _**The randomness of the card arrangement:**_
   - The arrangement of cards is generated randomly, making the game diverse and challenging
 
-
-## Jak zacząć grać?
-1. **Pobierz kod:** Sklonuj to repozytorium na swój lokalny komputer - git clone https://github.com/David-Mastalski/Memory-Games.git
-2. Wejdź do katalogu z grą i otwórz plik index.html w przeglądarce
-3. Powodzenia 😉
+## How to start playing? 
+- _**Download code:**_
+  - Clone this repository to your local computer - git clone https://github.com/David-Mastalski/Memory-Games.git.'
+- Navigate to the game directory and open the index.html file in a browser
+- Goodluck 😉
