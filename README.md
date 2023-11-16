@@ -27,3 +27,4 @@ Memory-Game is a simple but addictive card matching game. The aim of the game is
 - Goodluck 😉
 
 ## Demo from Memory Game
+<img src="https://github.com/David-Mastalski/Memory-Games/blob/main/demo/video1.gif" alt="Memory-Game Demo" width="100%">
