@@ -107,13 +107,18 @@ const checkStatus = () => {
 
     if(endOfTheGame){
         let bestPlayersPoints = 0
-        
+
         players.forEach(player => {
-            if(player.points >= bestPlayersPoints){
+            if(player.points == bestPlayersPoints){
+                bestPlayersPoints = player.points
+                winners.push(player.playerNumber)
+            }else if(player.points > bestPlayersPoints){
+                winners.length = 0
                 bestPlayersPoints = player.points
                 winners.push(player.playerNumber)
             }
         })
+
 
         if(winners.length > 1){
             winners.forEach((player,index) => {
